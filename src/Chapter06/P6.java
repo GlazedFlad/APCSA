@@ -50,12 +50,14 @@ public class P6 {
         } while (response.equals("yes"));
 
     }
-/**
- * Method to calculate exchange rate
- * @param dollars
- * @param exchangeRate
- * @return 
- */
+
+    /**
+     * Method to calculate exchange rate
+     *
+     * @param dollars the user's amount of money
+     * @param exchangeRate the currency you're converting to
+     * @return the amount of money you've converted
+     */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;

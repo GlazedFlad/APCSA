@@ -22,10 +22,12 @@ public class C6_1 {
 
         System.out.println(isValid(password) ? "Valid Password" : "Invalid Password");
     }
+
     /**
      * Method with loops to determine validity of password
+     *
      * @param password
-     * @return 
+     * @return
      */
     public static boolean isValid(String password) {
         // Atleast 8 characters
